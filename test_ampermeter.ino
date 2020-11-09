@@ -1,3 +1,6 @@
+#code made by Uroš Tomažič
+
+
 void setup() {
   pinMode(2,OUTPUT);
   pinMode(3,OUTPUT);
