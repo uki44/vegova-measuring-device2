@@ -34,5 +34,5 @@ if(digitalRead(6)==1){
 
 delay(200);
 lcd.setCursor(0,1);
-lcd.print("      ")  
+lcd.print("      ");  
 }
