@@ -18,20 +18,18 @@ void setup() {
 
 void loop() {
   a0 = analogRead(A0);
-
+  lcd.setCursor(0,1);
+  lcd.print(a0);
+  
 if(digitalRead(7)==1){
   digitalWrite(5,LOW);
   lcd.clear();
   lcd.print("RELE AKTIVIRAN");
-  lcd.setCursor(0,1);
-  lcd.print(a0);
- }
+  }
 if(digitalRead(6)==1){
   digitalWrite(5,HIGH);
   lcd.clear();
   lcd.print("RELE DEAKTIVIRAN");
-  lcd.setCursor(0,1);
-  lcd.print(a0);
 }
 
   
