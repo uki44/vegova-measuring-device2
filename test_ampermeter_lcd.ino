@@ -24,12 +24,12 @@ void loop() {
 if(digitalRead(7)==1){
   digitalWrite(5,LOW);
   lcd.clear();
-  lcd.print("RELE AKTIVIRAN");
+  lcd.print("RELE DEAKTIVIRAN");
   }
 if(digitalRead(6)==1){
   digitalWrite(5,HIGH);
   lcd.clear();
-  lcd.print("RELE DEAKTIVIRAN");
+  lcd.print("RELE AKTIVIRAN");
 }
 
 delay(200);
