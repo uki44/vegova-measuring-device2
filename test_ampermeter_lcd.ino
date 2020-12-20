@@ -32,5 +32,5 @@ if(digitalRead(6)==1){
   lcd.print("RELE DEAKTIVIRAN");
 }
 
-  
+delay(200);  
 }
