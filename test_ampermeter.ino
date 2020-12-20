@@ -1,4 +1,4 @@
-#code made by Uroš Tomažič
+//code made by Uroš Tomažič
 
 
 void setup() {
